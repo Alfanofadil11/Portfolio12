@@ -26,7 +26,7 @@ const greeting = {
     "An individual who is resilient, inquisitive, and deeply passionate about acquiring knowledge. While prioritizing outcomes is essential, embracing the process is ingrained as a way of life.",
   resumeLink:
     "https://drive.google.com/file/d/1UYVOO6wo8ZzQXV13o1MuGsPLeS7A8K5u/view?usp=sharing",
-  portfolio_repository: "https://github.com/Alfanofadil11/portfolio1",
+  portfolio_repository: "https://github.com/Alfanofadil11/alfanofadil11.github.io",
   githubProfile: "https://github.com/Alfanofadil11",
 };
 
