@@ -75,9 +75,9 @@ const skills = {
       title: "Business Analyst/Data Analyst",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Perform data analysis to identify trends, patterns, and insights that can inform business decisions.",
+        "⚡ gathering and analyzing data from various sources to provide insights to support decision-making within an organization.",
+        "⚡ Collects, cleans, and analyzes data to extract insights that inform business decisions.",
       ],
       softwareSkills: [
         {
@@ -115,16 +115,16 @@ const skills = {
           skillName: "Power:BI",
           fontAwesomeClassname: "logos:microsoft-power-bi",
           style: {
-            backgroundColor: "transparent",
+          backgroundColor: "transparent",
           },
         },
-        {
+        {  
           skillName: "Looker Studio",
           fontAwesomeClassname: "logos:looker",
           style: {
-            backgroundColor: "transparent",
-          },
-        },
+          backgroundColor: "transparent",
+      }
+    }
       ],
     },
     {
@@ -147,8 +147,8 @@ const skills = {
           skillName: "Adobe Premiere Pro",
           fontAwesomeClassname: "devicon-plain:premierepro",
           style: {
-            backgroundColor: "white",
-            color: "#7a4fde",
+            backgroundColor: "#99f",
+            color: "#00005b"
           },
         },
         {
@@ -215,17 +215,17 @@ const skills = {
           skillName: "Google Docs",
           fontAwesomeClassname: "simple-icons:googledocs",
           style: {
-            backgroundColor: "transparent",
-            color: "#0079ad",
-          },
+          backgroundColor: "transparent",
+          color: "#0079ad",
         },
-        {
+      },
+      {
           skillName: "Google Scholar",
-          fontAwesomeClassname: "simple-icons:googlescholar",
-          style: {
-            backgroundColor: "transparent",
-            color: "#0079ad",
-          },
+         fontAwesomeClassname: "simple-icons:googlescholar",
+         style: {
+          backgroundColor: "transparent",
+          color: "#0079ad",
+         },
         },
       ],
     },
@@ -249,8 +249,7 @@ const competitiveSites = {
       style: {
         backgroundColor: "transparent",
       },
-      profileLink:
-        "https://coursera.org/share/0d52357ac4332a344ada644afb39d0c1",
+      profileLink: "https://coursera.org/share/0d52357ac4332a344ada644afb39d0c1",
     },
   ],
 };
@@ -261,7 +260,7 @@ const degrees = {
       title: "University of Indonesia",
       subtitle: "Bachelor of Fine Arts, in Philosophy",
       logo_path: "logo_ui.png",
-      alt_name: "IIITDM Kurnool",
+      alt_name: "UI",
       duration: "2019 - 2023",
       descriptions: [
         "⚡ As a philosophy student, I study analytical philosophy, philosophy of economics, philosophy of technology, and ethics to develop my critical thinking towards the practical world.",
@@ -342,11 +341,11 @@ const certifications = {
       title: "Business Intelligence Analyst",
       subtitle: "- Bank Muamalat",
       logo_path: "logo_rakamin.png",
-      certificate_link:
+      certificate_link: 
         "https://drive.google.com/file/d/1gi8CROsF71-xaIMczh60Gy8pQBCgYgjD/view?usp=sharing",
       alt_name: "Rakamin Academy x Bank Muamalat",
       color_code: "#d6d6d6",
-    },
+     },
   ],
 };
 
@@ -403,13 +402,11 @@ const experience = {
         {
           title: "Business Intelligence Analyst Intern",
           company: "Bank Muamalat x Rakamin Academy",
-          company_url:
-            "https://www.rakamin.com/virtual-internship-experience/vix-muamalat-bi-analyst",
+          company_url: "https://www.rakamin.com/virtual-internship-experience/vix-muamalat-bi-analyst",
           logo_path: "logo_bmi.png",
           duration: "September 2023 - October 2023",
           location: "Remote, Indonesia",
-          description:
-            "Learn about skills and tools commonly used at Bank Muamalat Business Intelligence Analyst, such as Statistics & Business Acumen, Data Visualization, Excel Data Processing, Excel Data Processing, SQL Operation, BI Tools: Dashboard. Project 1: Making dashboard from Bank Muamalat raw data and processing with Google Big Query and Looker Studio. Processing data included Data Analysis, Data Filtering, Data Viz, and Data Insight.",
+          description: "Learn about skills and tools commonly used at Bank Muamalat Business Intelligence Analyst, such as Statistics & Business Acumen, Data Visualization, Excel Data Processing, Excel Data Processing, SQL Operation, BI Tools: Dashboard. Project 1: Making dashboard from Bank Muamalat raw data and processing with Google Big Query and Looker Studio. Processing data included Data Analysis, Data Filtering, Data Viz, and Data Insight.",
           color: "#ee3c26",
         },
       ],
@@ -418,8 +415,7 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title:
-            "Coordinator of Public relations, Publication, Design, and Documentation",
+          title: "Coordinator of Public relations, Publication, Design, and Documentation",
           company: "Philosofair UI 2021",
           company_url: "https://www.instagram.com/philosofairui/",
           logo_path: "logo-philo.jpg",
@@ -522,15 +518,15 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "East Jakarta, Indonesia",
+    subtitle:
+      "East Jakarta, Indonesia",
     locality: "Ciracas",
     country: "INDO",
     region: "East Jakarta",
     postalCode: "13750",
     streetAddress: "Makmur Street",
     avatar_image_path: "address_image.svg",
-    location_map_link:
-      "https://www.google.com/maps/d/viewer?mid=1fzvE_mZ3kxFYPOWO85h9EjqGURs&hl=en&ll=-6.309952617910864%2C106.86681101488203&z=17",
+    location_map_link: "https://www.google.com/maps/d/viewer?mid=1fzvE_mZ3kxFYPOWO85h9EjqGURs&hl=en&ll=-6.309952617910864%2C106.86681101488203&z=17",
   },
   phoneSection: {
     title: "",
