@@ -452,7 +452,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. The projects I work on revolve around digital editing and design, article writing, and data. I can't showcase my Business Intelligence Analyst project because the data in Looker Studio is no longer connected to my Google BigQuery as the subscription has expired.",
   avatar_image_path: "projects_image.svg",
 };
 
