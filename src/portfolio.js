@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Alfano Fadil Juyendra Portfolio",
     type: "website",
-    url: "http://alfanofadil.com/",
+    url: "https://alfanofadil11.github.io/",
   },
 };
 
@@ -28,8 +28,8 @@ const greeting = {
     "https://drive.google.com/file/d/1UYVOO6wo8ZzQXV13o1MuGsPLeS7A8K5u/view?usp=sharing",
   portfolio_repository: "https://github.com/Alfanofadil11/alfanofadil11.github.io",
   githubProfile: "https://github.com/Alfanofadil11",
+  profileLink:"https://drive.google.com/drive/folders/1YGLx6TcXrTaojb4sS5qV4T93U1ExfnOk?usp=sharing",
 };
-
 const socialMediaLinks = [
   /* Your Social Media Link */
   // github: "https://github.com/Alfanofadil11",
@@ -118,13 +118,20 @@ const skills = {
           backgroundColor: "transparent",
           },
         },
+        {
+          skillName: "Visual Studio Code",
+          fontAwesomeClassname: "logos:visual-studio-code",
+          style: {
+          backgroundColor: "transparent",
+          },
+        },
         {  
           skillName: "Looker Studio",
           fontAwesomeClassname: "logos:looker",
           style: {
           backgroundColor: "transparent",
-      }
-    }
+          },
+        },
       ],
     },
     {
@@ -450,7 +457,7 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
+  title: "Publication",
   description:
     "I have worked on and published a few research papers and publications of my own.",
   avatar_image_path: "projects_image.svg",
@@ -500,6 +507,7 @@ const publications = {
     },
   ],
 };
+
 
 // Contact Page
 const contactPageData = {

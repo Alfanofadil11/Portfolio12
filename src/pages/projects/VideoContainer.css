@@ -1,0 +1,95 @@
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .video-heading-div {
+    opacity: 0; /* Initially set opacity to 0 for fade effect */
+    transform: translateY(20px); /* Move the element 20px down initially */
+    transition: opacity 1s ease-in, transform 1s ease-in; /* Apply transitions for opacity and transform */
+  }
+  
+  .video-heading-div.fade-in {
+    opacity: 1; /* Set opacity to 1 for fade-in effect */
+    transform: translateY(0); /* Reset the element's position to its original place */
+  }
+  
+  
+  .video-card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    gap: 20px; /* Add space between cards */
+    padding: 20px; /* Add padding to the container */
+}
+  
+.video-card {
+    width: calc(33.33% - 20px); /* Set width for each video card */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative; /* Ensure proper positioning of overlay */
+    opacity: 1;
+    transform: translateY(20px); /* Start from 20px below */
+    transition: opacity 1s ease-in, transform 1s ease-in; /* Apply slower transition */
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    min-width: 350px;
+    margin: 10;
+}
+
+.video-card iframe {
+    width: 100%; /* Set iframe width to fill the container */
+    height: 100%; /* Set iframe height to fill the container */
+    display: block; /* Ensure the video is centered horizontally */
+    margin: 0 auto; /* Center the video horizontally */
+}
+.video-card::after {
+    content: ""; /* Create pseudo-element for overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent black overlay */
+    z-index: -1; /* Ensure overlay appears below video details */
+    pointer-events: none; /* Allow clicks to pass through overlay */
+  }
+
+.video-details {
+    position: relative; /* Ensure details appear above overlay */
+    z-index: 3; /* Ensure details appear above overlay and overlay */
+    padding: 16px;
+    color: rgb(5, 5, 32); /* Change text color to white */
+    text-shadow: 1px 1px 2px rgba(255, 251, 251, 0.5);
+}
+
+.video-heading-text-div {
+    text-align: center;
+    font-family: "Google Sans Regular"; /* Reuse font-family */
+    margin-top: 70px; /* Adjust margin-top to position the header */
+}
+
+.video-heading-text {
+    font-size: 56px; /* Adjust font size */
+    font-weight: 600; /* Adjust font weight */
+}
+
+.video-header-detail-text {
+    font-size: 20px; /* Adjust font size for description */
+    line-height: 30px; /* Adjust line height for description */
+    margin-top: 0px; /* Adjust margin-top for description */
+    margin-left: 20px; /* Adjust margin-left for description */
+    margin-right: 20px; /* Adjust margin-right for description */
+}
+
+.video-heading-div {
+    opacity: 0;
+}
+
+.video-heading-div.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
