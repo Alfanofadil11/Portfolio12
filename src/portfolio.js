@@ -72,7 +72,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Business Analyst/Data Analyst",
+      title: "Sales Analyst/Business Analyst/Data Analyst",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Perform data analysis to identify trends, patterns, and insights that can inform business decisions.",
