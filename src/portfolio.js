@@ -265,7 +265,7 @@ const degrees = {
   degrees: [
     {
       title: "University of Indonesia",
-      subtitle: "Bachelor of Fine Arts, in Philosophy",
+      subtitle: "Bachelor of Arts, in Philosophy",
       logo_path: "logo_ui.png",
       alt_name: "UI",
       duration: "2019 - 2023",
