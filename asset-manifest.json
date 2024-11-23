@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.80edf389.css",
-    "main.js": "./static/js/main.a7897f10.js",
+    "main.js": "./static/js/main.b895ebb4.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/Streetwear.png": "./static/media/Streetwear.da268402176326fb5d94.png",
     "static/media/Streetwear.jpg": "./static/media/Streetwear.4bae947e5e2529db57a5.jpg",
@@ -81,10 +81,10 @@
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.80edf389.css.map": "./static/css/main.80edf389.css.map",
-    "main.a7897f10.js.map": "./static/js/main.a7897f10.js.map"
+    "main.b895ebb4.js.map": "./static/js/main.b895ebb4.js.map"
   },
   "entrypoints": [
     "static/css/main.80edf389.css",
-    "static/js/main.a7897f10.js"
+    "static/js/main.b895ebb4.js"
   ]
 }
