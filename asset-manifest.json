@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.80edf389.css",
-    "main.js": "./static/js/main.dbee0ca5.js",
+    "main.js": "./static/js/main.a7897f10.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/Streetwear.png": "./static/media/Streetwear.da268402176326fb5d94.png",
     "static/media/Streetwear.jpg": "./static/media/Streetwear.4bae947e5e2529db57a5.jpg",
@@ -9,6 +9,7 @@
     "static/media/Valomarch2.jpg": "./static/media/Valomarch2.46a26a15a5783086ae99.jpg",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
+    "static/media/Vector Alfanof.jpg": "./static/media/Vector Alfanof.2845c3f012c0b1eb1359.jpg",
     "static/media/Schedule.jpg": "./static/media/Schedule.f58b909371950e5314dc.jpg",
     "static/media/fotogue.jpeg": "./static/media/fotogue.43cff941a3fc459717b0.jpeg",
     "static/media/tiktok_logo.png": "./static/media/tiktok_logo.bf41765c122d4b0f3fee.png",
@@ -17,7 +18,6 @@
     "static/media/dsc_logo.png": "./static/media/dsc_logo.fdf993910e3f48d0cf30.png",
     "static/media/fa-solid-900.eot": "./static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
-    "static/media/animated_ashutosh.png": "./static/media/animated_ashutosh.a6571aa6386520448027.png",
     "static/media/fa-regular-400.svg": "./static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
     "static/media/fa-brands-400.eot": "./static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
@@ -66,6 +66,7 @@
     "static/media/logo_rakamin.png": "./static/media/logo_rakamin.76ba55a868859ff2f81b.png",
     "static/media/pwa.png": "./static/media/pwa.5107022416df1293dd12.png",
     "static/media/experience.svg": "./static/media/experience.c50c576af78a4172f78d.svg",
+    "static/media/OCBC LOGO.jpg": "./static/media/OCBC LOGO.156ac691681601478f78.jpg",
     "static/media/fa-regular-400.woff": "./static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "static/media/feelingProud.svg": "./static/media/feelingProud.288e616ff8dc11bd4713.svg",
@@ -80,10 +81,10 @@
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.80edf389.css.map": "./static/css/main.80edf389.css.map",
-    "main.dbee0ca5.js.map": "./static/js/main.dbee0ca5.js.map"
+    "main.a7897f10.js.map": "./static/js/main.a7897f10.js.map"
   },
   "entrypoints": [
     "static/css/main.80edf389.css",
-    "static/js/main.dbee0ca5.js"
+    "static/js/main.a7897f10.js"
   ]
 }
