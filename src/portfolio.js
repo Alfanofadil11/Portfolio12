@@ -21,11 +21,11 @@ const seo = {
 const greeting = {
   title: "Alfano Fadil Juyendra",
   logo_name: "Alfanofadil",
-  nickname: "Alfano",
+  nickname: "Fadil",
   subTitle:
     "An individual who is resilient, inquisitive, and deeply passionate about acquiring knowledge. While prioritizing outcomes is essential, embracing the process is ingrained as a way of life.",
   resumeLink:
-    "https://drive.google.com/file/d/1UYVOO6wo8ZzQXV13o1MuGsPLeS7A8K5u/view?usp=sharing",
+    "https://drive.google.com/file/d/1BXL_-uYH1gf9xLnoTvzTSon8aqfVc-e-/view?usp=sharingnpm",
   portfolio_repository: "https://github.com/Alfanofadil11/alfanofadil11.github.io",
   githubProfile: "https://github.com/Alfanofadil11",
   profileLink:"https://drive.google.com/drive/folders/1YGLx6TcXrTaojb4sS5qV4T93U1ExfnOk?usp=sharing",
@@ -72,7 +72,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Sales Analyst/Business Analyst/Data Analyst",
+      title: "Sales Analyst/Business Analyst/Business Planning",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Perform data analysis to identify trends, patterns, and insights that can inform business decisions.",
@@ -135,7 +135,7 @@ const skills = {
       ],
     },
     {
-      title: "Digital Marketing/Analyst/Creator",
+      title: "Digital Marketing/Analyst",
       fileName: "FullStackImg",
       skills: [
         "⚡ Making video project with Adobe Premiere Pro and After Effects",
@@ -361,13 +361,33 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship, and Volunteership",
   description:
-    "I underwent an internship at Bank Muamalat as a Business Intelligence Analyst for a month. Currently, I am undergoing an internship at Vision+ as a Planning & Scheduling Research intern. Additionally, I have experience in Video Editing as a freelancer at Satu Persen Indonesia Life School.",
+    "I have experience in Business Intelligence Analysis, Marketing and Sales, Media Planning, and Credit Analysis, including understanding banking fundamentals, basic credit, and wealth management strategies. My expertise includes Excel, SEO, Google Suite, Financial Analysis, JavaScript, Looker Studio, and more.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       work: true,
       experiences: [
+        {title: "Banking Academy Consumer Loan Associate (Secured Loan)",
+          company: "OCBC Bank Indonesia",
+          company_url: "https://www.ocbc.id/id/individu",
+          logo_path: "OCBC LOGO.jpg",
+          duration: "July 2024 - Present",
+          location: "Jakarta, Indonesia",
+          description:
+          "Gained understanding of various consumer loan products, financial regulations, and credit assessment techniques. Analyzing SLIK, income statements, and other financial documents to assess borrower eligibility.",
+          color: "#FFCB0F",
+         },
+        {title: "Wealth Management Trainee",
+         company: "Commonwealth Bank Indonesia",
+         company_url: "https://www.ocbc.id/id/strongertogether",
+         logo_path: "commbank.png",
+         duration: "March 2024 - June 2024",
+         location: "South Jakarta, Indonesia",
+         description:
+         "I learned about banking fundamentals, including how banks generate profit, the impact of banks on economic growth, and the products sold by banks.",
+         color: "#FFCB0F",
+        },
         {
           title: "Freelance Video Editor",
           company: "Satu Persen Indonesia Life School",
@@ -400,7 +420,7 @@ const experience = {
           company: "Vision+",
           company_url: "https://www.visionplus.id/webclient/#/",
           logo_path: "Vision+Logo.png",
-          duration: "October 2023 - Now",
+          duration: "October 2023 - February 2024]",
           location: "Central Jakarta, Indonesia",
           description:
             "Gathering data through data collection in Looker Studio for the purpose of facilitating weekly planning. Creating monthly performance data visualization using charts in Excel Spreadsheet and PivotTable. Daily tasks involve scheduling Free to Air (FTA) and Video on Demand (VOD) content with trend analysis using Looker Studio. Contribute to Mirada cloud migration project as a proofreader for query/API’s metadata content that will be entered into the cloud.",
